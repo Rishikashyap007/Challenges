@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container1{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+    
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fbfbfb;
+    border: 2px solid rgb(240, 234, 234);
+    height: 150px;
+    width: 300px;
+    gap: 10px;
+}
+.name-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+.box1{
+    height: 30px;
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.box2{
+    height: 30px;
+    width: 95%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+.signup-button{
+    height: 30px;
+    width: 95%;
+    font-size: 1.2rem;
+    background-color: rgb(19, 128, 253);
+    color: azure;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+
+
+.container2{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 123);
+
+}
+.container2 h1{
+    color: black;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 0px;
+}
+.uber-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fbfbfb;
+    border: 2px solid rgb(240, 234, 234);
+    height: 180px;
+    width: 300px;
+    padding-left: 5px;
+    gap: 10px;
+}
+.input-box1{
+    height: 30px;
+    width: 95%;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    outline: none;
+}
+.input-box2{
+    height: 30px;
+    width: 95%;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+}
+.buttons{
+    display: flex;
+    gap: 12px;
+}
+.button1{
+    height: 30px;
+    font-size: 1rem;
+    padding: 4px;
+    background-color: rgb(45, 44, 44);
+    color: azure;
+}
+.button2{
+    height: 30px;
+    font-size: 1rem;
+    padding: 4px;
+}
